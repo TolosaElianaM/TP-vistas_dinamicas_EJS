@@ -20,12 +20,12 @@
         <h1 class="ps-center"> <%= plato.title %> </h1>
         <br />
         <% if(plato.description){ %> 
-        <h4> <%= plato.description %> <%= plato.price %> </h4>
+        <h4> <%= plato.description %> </h4>
         <% } else{ %> 
           <h4>Plato típico</h4>
         <% } %> 
         <p class="ps-text-grey">
-          U$S 65.50
+          <%= plato.price %> 
         </p>
       </div>
 
